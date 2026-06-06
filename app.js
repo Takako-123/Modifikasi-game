@@ -1,13 +1,17 @@
 function showReward(){
     document.getElementById("reward").innerHTML =
-    "🎉 Selamat! Kamu mendapatkan 100 Gold!";
+    "🎉 Congratulations! You've just earned 200 Buckies";
 }
 
 function downloadGame(){
-    alert("Download akan segera dimulai!");
+    alert("Download will begin soon!");
 }
 
-let player = 1000;
+function learnMore(){
+    alert("Coming soon!");
+}
+
+let player = 35;
 
 function addPlayer(){
     player++;

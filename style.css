@@ -1,8 +1,8 @@
 :root{
-    --primary:#8b5cf6;
-    --dark:#0f172a;
-    --card:#1e293b;
-    --white:#ffffff;
+    --primary: #0839cd;
+    --dark:#0055fedb;
+    --card:#0839cd;
+    --white:#fff3d7;
 }
 
 *{
@@ -18,7 +18,7 @@ body{
 }
 
 header{
-    background:#111827;
+    background:#8ad802;
     position:sticky;
     top:0;
 }
@@ -47,7 +47,7 @@ header{
 }
 
 .menu a{
-    color:white;
+    color:rgb(254, 245, 0);
     text-decoration:none;
 }
 
@@ -88,7 +88,7 @@ header{
 
 button{
     background:var(--primary);
-    color:white;
+    color:#eeff05;
     border:none;
     padding:12px 24px;
     border-radius:8px;
@@ -133,6 +133,7 @@ button:hover{
 
 .card:hover{
     transform:translateY(-10px);
+    opacity:0.8;
 }
 
 .video-section{
@@ -178,7 +179,7 @@ button:hover{
 }
 
 footer{
-    background:#111827;
+    background:#8ad802;
     text-align:center;
     padding:30px;
 }
@@ -188,7 +189,7 @@ footer{
 }
 
 .social a{
-    color:white;
+    color: #ffffff;
     text-decoration:none;
     margin:0 10px;
 }
@@ -221,4 +222,8 @@ footer{
     .hero-text h1{
         font-size:2rem;
     }
+}
+
+#playerCount {
+    color: #eeff05;
 }
